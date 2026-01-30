@@ -1,0 +1,160 @@
+/* ===== General Styling ===== */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7ff;
+    color: #333;
+}
+
+/* ===== Navbar ===== */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    background: #1e3a8a;
+}
+
+.logo {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.btn-nav {
+    background: white;
+    color: #1e3a8a;
+    padding: 8px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 45px;
+    color: #1e3a8a;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.hero-img img {
+    width: 280px;
+}
+
+/* Button */
+.btn-main {
+    display: inline-block;
+    background: #1e3a8a;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ===== Features Section ===== */
+.features {
+    text-align: center;
+    padding: 50px;
+    background: white;
+}
+
+.features h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #1e3a8a;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box {
+    background: #e0e7ff;
+    padding: 25px;
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 8px gray;
+}
+
+/* ===== Services Section ===== */
+.services {
+    padding: 50px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #1e3a8a;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-box {
+    background: white;
+    padding: 25px;
+    width: 250px;
+    border-radius: 12px;
+    border-left: 5px solid #1e3a8a;
+    box-shadow: 0px 0px 8px lightgray;
+}
+
+/* ===== Contact Section ===== */
+.contact {
+    text-align: center;
+    padding: 50px;
+    background: #1e3a8a;
+    color: white;
+}
+
+.contact h2 {
+    font-size: 30px;
+}
+
+.contact .btn-main {
+    background: white;
+    color: #1e3a8a;
+    margin-top: 15px;
+}
+
+/* ===== Footer ===== */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: black;
+    color: white;
+}
